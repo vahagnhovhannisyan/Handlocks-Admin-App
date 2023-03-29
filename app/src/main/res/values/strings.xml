@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">HandLocks Admin App</string>
+    <string name="products">Ապրանքներ</string>
+    <string name="new_products">Նոր Ապրանքներ</string>
+    <string name="offers">Առաջարկվող Ապրանքներ</string>
+    <string name="users">Օգտատերեր</string>
+
+    <string-array name="types">
+        <item>բռնակ</item>
+        <item>կողպեք</item>
+        <item>փական</item>
+        <item>մղլակ</item>
+        <item>ծխնի</item>
+        <item>միջուկ</item>
+        <item>փականի մեխանիզմ</item>
+    </string-array>
+
+    <string-array name="brands">
+        <item>Apecs</item>
+        <item>Guardian</item>
+        <item>Vettore</item>
+        <item>Code Deco</item>
+        <item>Viro</item>
+
+    </string-array>
+</resources>

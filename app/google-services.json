@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "101395307123",
+    "firebase_url": "https://my-handlocks-store-default-rtdb.firebaseio.com",
+    "project_id": "my-handlocks-store",
+    "storage_bucket": "my-handlocks-store.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101395307123:android:a55e2e4ac321a61443a806",
+        "android_client_info": {
+          "package_name": "com.example.handlocksadminapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101395307123-kbvf27oog4s8m2e49003489iiin4kisc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUn9baUrBWDO419N5PLY_4zzxnzmL_Bho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101395307123-kbvf27oog4s8m2e49003489iiin4kisc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101395307123:android:005ace1f474c5fa243a806",
+        "android_client_info": {
+          "package_name": "com.example.myhandlocksstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101395307123-kbvf27oog4s8m2e49003489iiin4kisc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUn9baUrBWDO419N5PLY_4zzxnzmL_Bho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101395307123-kbvf27oog4s8m2e49003489iiin4kisc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
