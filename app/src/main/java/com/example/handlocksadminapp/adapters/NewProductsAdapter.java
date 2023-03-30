@@ -45,7 +45,7 @@ public class NewProductsAdapter extends RecyclerView.Adapter<NewProductsAdapter.
         int a = position;
         Glide.with(context).load(list.get(position).getImg_url()).into(holder.imageView);
         holder.name.setText(list.get(position).getName());
-        holder.description.setText(list.get(position).getDescription());
+        holder.brand.setText(list.get(position).getBrand());
         holder.price.setText(list.get(position).getPrice() + "֏");
         holder.deleteItem.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -98,7 +98,7 @@ public class NewProductsAdapter extends RecyclerView.Adapter<NewProductsAdapter.
     public class ViewHolder extends RecyclerView.ViewHolder {
 
         ImageView imageView;
-        TextView name, description, price;
+        TextView name, brand, price;
         ImageView deleteItem;
 
 
@@ -106,7 +106,7 @@ public class NewProductsAdapter extends RecyclerView.Adapter<NewProductsAdapter.
             super(itemView);
             imageView = itemView.findViewById(R.id.new_product_img);
             name = itemView.findViewById(R.id.new_product_name);
-            description = itemView.findViewById(R.id.new_product_name);
+            brand = itemView.findViewById(R.id.new_product_brand);
             price = itemView.findViewById(R.id.new_product_price);
             deleteItem = itemView.findViewById(R.id.deleteItem);
 

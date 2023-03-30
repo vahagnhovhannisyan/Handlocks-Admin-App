@@ -51,7 +51,7 @@ public class OffersPakMexAdapter extends RecyclerView.Adapter<OffersPakMexAdapte
             @Override
             public void onClick(View v) {
 
-                firestore.collection("OffersPakMex ").document(list.get(a).getDocumentId())
+                firestore.collection("OffersPakMex").document(list.get(a).getDocumentId())
                         .delete().addOnCompleteListener(new OnCompleteListener<Void>() {
                             @Override
                             public void onComplete(@NonNull Task<Void> task) {
